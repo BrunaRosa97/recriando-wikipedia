@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia da Bruna Rosa</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css">
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>   
+        <figure class="logo" alt="logo do site">
+            <img src="imagens série/logo-serie.png" width="200"/>
+        </figure>
+    </header>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <nav class="sidebar">
+            <h2>Séries de TV</h2>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html" target="self">Grey's Anatomy</a></li>
+                <li><a href="http://127.0.0.1:5500/station19.html" target="self">Station 19</a></li>
+                <li><a href="http://127.0.0.1:5500/theWitcher.html" target="self">The Witcher</a></li>
+                <li><a href="http://127.0.0.1:5500/lucifer.html" target="self">Lúcifer</a></li>
+                <li><a href="http://127.0.0.1:5500/the100.html" target="self">The 100</a></li>
+            </ul>
+            <hr /> 
+        </nav>
+
+        <main >
+            <figure alt="imagem da série The Witcher">
+                <img src="imagens série/the-witcher2.jpeg" width="200"/>
+            </figure>
+            
+            <h2 id="resumo">Resumo sobre a série The Witcher</h2>
+                <p> 
+                    Geralt de Rivia (Cavill) é um bruxo, um mutante com poderes especiais que mata monstros por dinheiro. A Terra está num estado de caos enquanto o império de Nilfgaard procura expandir o seu território. Entre os refugiados desta luta está Cirilla (Freya Allan), também chamada Ciri, a Princesa de Cintra, que está sendo perseguida por Nilfgaard. Ela e o Geralt estão destinados um ao outro. Em suas aventuras Geralt também conhece Yennefer de Vengerberg (Anya Chalotra), uma feiticiera.<br>
+                    The Witcher (em polonês, Wiedźmin) é uma série de televisão via streaming estadunidense-polonesa de drama e fantasia, criada por Lauren Schmidt Hissrich, baseada na série de livros do escritor polonês Andrzej Sapkowski. Situado em uma terra fictícia de inspiração medieval conhecida como "o continente", The Witcher explora a lenda de Geralt de Rivia e da Princesa Cirila, que estão ligados um ao outro pelo destino. A série é estrelada por Henry Cavill, Freya Allan e Anya Chalotra.
+                </p>
+                <small><a href="#inicio">(voltar)</a></small>
+            <hr />
+                <h3 id="conceito">Conceito</h3>
+                    <p>
+                        A série de livros Wiedźmin de Andrzej Sapkowski foi inicialmente programada para ser adaptada em um filme autônomo da Netflix, mas Kelly Luegenbiehl, vice-presidente dos Conteúdos Originais Internacionais da Netflix, dissuadiu os produtores. Ela se lembrou de lhes perguntar:<blockquote><i>"Como você pode pegar oito romances e simplesmente transformá-los em um filme? Há tanto material aqui.</i></blockquote> Através de várias conversas, os produtores ficaram realmente entusiasmados com a idéia de usar o material de origem para uma série mais longa." Em maio de 2017, a Netflix anunciou o início da produção de uma série de TV de drama em idioma inglês baseada nos livros.
+
+                    </p>
+                    <small><a href="#inicio">(voltar)</a></small>
+                <hr />
+                    <h3 id="notas">Notas</h3>
+                        <p>
+                            Segundo a Parrot Analytics, The Witcher, em sua estréia nos EUA, foi a terceira série de streaming original com mais "em demanda", atrás de Stranger Things e The Mandalorian. O processo da Parrot mede "expressões de demanda", que é "sua unidade de medição de demanda de TV padronizada globalmente que reflete o desejo, o engajamento e a audiência de uma série ponderada pela importância". Em 31 de dezembro de 2019, a Parrot Analytics relatou que The Witcher se tornou a série de TV mais demandada do mundo, em todas as plataformas.
+                        </p>
+                        <small><a href="#inicio">(voltar)</a></small>
+                    <hr />    
+                
+        </main>
+
+        <aside>
+            <h2 id="inicio">Neste Artigo</h2>
+            <ul>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#conceito">Conceito</a></li>
+                <li><a href="#notas">Notas</a></li>
+            </ul>
+            <hr />         
+        </aside>
+    </div>
+    
+    <hr />
+
+    <footer>
+        <h3>Referências</h3>
+        <p>
+            Projeto executado por Bruna Rosa, fã em especial de todas as séries citadas acima.<br>
+        </p>
+        <p>
+            Todos os dados acima foram retirados do <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">Wikipéida</a>!
+        </p>
+        <small><a href="#inicio">(voltar)</a></small>
+        <hr />    
+    </footer>
+
+    
+</body>
+</html>
